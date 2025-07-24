@@ -1,0 +1,32 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [{ "name": "_shortPoolManager", "type": "address", "internalType": "address" }],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "onMorphoFlashLoan",
+    "inputs": [
+      { "name": "assets", "type": "uint256", "internalType": "uint256" },
+      { "name": "userData", "type": "bytes", "internalType": "bytes" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "rebalanceOrLiquidateV2WithCreditNote",
+    "inputs": [
+      { "name": "borrowAmount", "type": "uint256", "internalType": "uint256" },
+      { "name": "data", "type": "bytes", "internalType": "bytes" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "error",
+    "name": "SafeERC20FailedOperation",
+    "inputs": [{ "name": "token", "type": "address", "internalType": "address" }]
+  }
+]
