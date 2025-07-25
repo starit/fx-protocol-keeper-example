@@ -1,7 +1,5 @@
 ## Fx keeper example contracts
 
-
-
 ## Documentation
 
 https://book.getfoundry.sh/
@@ -17,7 +15,7 @@ https://book.getfoundry.sh/
 ### Build
 
 ```shell
-$ forge build
+$ forge build --via-ir
 ```
 
 ### Test
